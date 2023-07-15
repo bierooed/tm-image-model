@@ -4,8 +4,8 @@ _This package provides the ability to easily customize a model trained in Teacha
 
 ## Notes
 
-When installing this package, you must also install [TensorFlow.js](https://www.npmjs.com/package/@tensorflow/tfjs)
-`npm i @tensorflow/tfjs`
+When installing this package, you must also install [TensorFlow.js](https://www.npmjs.com/package/@tensorflow/tfjs) and [Teachable Machine Image](https://www.npmjs.com/package/@teachablemachine/image)
+` npm install @tensorflow/tfjs @teachablemachine/image`
 
 ## Usage
 
