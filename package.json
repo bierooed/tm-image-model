@@ -1,0 +1,14 @@
+{
+  "name": "tm-image-model",
+  "version": "2.0.5",
+  "description": "",
+  "main": "tm-functions.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Oganes Oganisyan",
+  "license": "MIT",
+  "dependencies": {
+    "tm-image-model": "^2.0.0"
+  }
+}
