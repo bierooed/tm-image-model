@@ -1,14 +1,14 @@
 import * as tf from "@tensorflow/tfjs";
 import * as tmImage from "@teachablemachine/image";
 
-async function loadModel(url) {
+export async function loadModel(url) {
   const modelUrl = url + "model.json";
   const metadataUrl = url + "metadata.json";
   const model = await tmImage.load(modelUrl, metadataUrl);
   return model;
 }
 
-async function imageFormatting(imageFile, canvasRef) {
+export async function imageFormatting(imageFile, canvasRef) {
   const file = URL.createObjectURL(imageFile);
   const canvas = canvasRef.current;
   const context = canvas.getContext("2d");
@@ -22,8 +22,3 @@ async function imageFormatting(imageFile, canvasRef) {
 
   return image;
 }
-
-module.exports = {
-  loadModel,
-  imageFormatting,
-};
